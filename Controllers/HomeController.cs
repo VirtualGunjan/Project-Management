@@ -26,6 +26,13 @@ namespace ProjectManagement.Controllers
         {
             //write here dashboard code
             return View();
+
+        }
+        public IActionResult Profile()
+        {
+            //write here profile code
+            return View();
+
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
